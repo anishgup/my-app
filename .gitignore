@@ -1,7 +1,13 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
-
+android/app/build/
+.DS_Store
 # expo
 .expo/
+
+android/.gradle
+android/.idea
+*.iml
+android/build
 
 # dependencies
 /node_modules
