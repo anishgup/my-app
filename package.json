@@ -10,6 +10,9 @@
   "dependencies": {
     "@remobile/react-native-splashscreen": "^1.0.3",
     "alt": "^0.18.1",
+    "appcenter": "^1.1.0",
+    "appcenter-analytics": "^1.1.0",
+    "appcenter-crashes": "^1.1.0",
     "react-native": "^0.18.0",
     "react-native-action-button": "^1.0.8",
     "react-native-android-statusbar": "^0.1.2",
