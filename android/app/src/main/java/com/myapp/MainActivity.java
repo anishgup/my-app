@@ -18,7 +18,7 @@ public class MainActivity extends ReactActivity {
                 .addPackage(new CodePush(getResources().getString(R.string.reactNativeCodePush_androidDeploymentKey), getApplicationContext(), BuildConfig.DEBUG))
                 .setJSBundleFile(CodePush.getJSBundleFile())
                 .build();
-        mReactRootView.startReactApplication(mReactInstanceManager, "myapp", null);
+        mReactRootView.startReactApplication(mReactInstanceManager, "my-app", null);
         setContentView(mReactRootView);
     }
 
@@ -28,6 +28,6 @@ public class MainActivity extends ReactActivity {
      */
     @Override
     protected String getMainComponentName() {
-        return "myapp";
+        return "my-app";
     }
 }
