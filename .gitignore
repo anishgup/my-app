@@ -5,6 +5,8 @@ android/app/build/
 # expo
 .expo/
 
+ios/build/
+
 android/.gradle
 android/.idea
 *.iml
